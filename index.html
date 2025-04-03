@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>Kabuto Hido</span>
+        </a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn" onclick="window.open('https://github.com/Kabuto-Hido', '_blank')">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="cr7.jpg" alt="avatar">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Kabuto</h1>
+                    <span>Backend Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="CV.pdf" download="Kabuto_Hido_CV.pdf">
+                        <button class="btn">Download CV</button>
+                    </a>
+                    <a href="#contact">
+                        <button class="btn">Contact Me</button>
+                    </a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/Kabuto-Hido" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a id="fa-linkedin" href="https://www.linkedin.com/in/ngo-bui-tuan-anh-58ba69212/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a id="fa-facebook" href="https://www.facebook.com/Kabuto.Hido" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Backend Developer</span>
+                    <h3>1 Years</h3>
+                    <p>Java Developer at Sparkminds Company.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>IT Supporter</span>
+                    <h3>1 Years</h3>
+                    <p>Deploying digital transformation for the entire company.</p>
+                </div>
+            </div>
+            <img src="cr7.jpg" alt="avatar">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="image1.png" alt="project1">
+                <h3>Article Management</h3>
+                <p>A web application for users to view and post articles.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/Kabuto-Hido/ArticleManagement" target="_blank" class="btn">Github Repo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="image2.png" alt="project2">
+                <h3>Attendance App Moblie</h3>
+                <p>A moblie app help users to time attendance by face.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/Kabuto-Hido/KLTN_Attendance_App" target="_blank" class="btn">Github Repo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="imagePost.jpg" alt="project3">
+                <h3>Integrate Payment</h3>
+                <p>A application that demo integrate payment with bank.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/Kabuto-Hido/bank-integration" target="_blank" class="btn">Github Repo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="email" placeholder="Your Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">All Rights Reserved | Kabuto-Hido</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
